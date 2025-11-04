@@ -20,7 +20,7 @@ public class AppServiceController {
     @GetMapping("/message")
     public ResponseEntity<String> getStatus() {
         System.out.println("Request received at /Message endpoint");
-        return ResponseEntity.ok("Welcome to Azure App Service Updated!");
+        return ResponseEntity.ok("Welcome to Azure App Service Updated with db!");
     }
     
     @GetMapping("/employees")
